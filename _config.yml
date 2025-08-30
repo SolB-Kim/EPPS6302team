@@ -1,28 +1,23 @@
-title: VSZHub
-description: The homepage of Songzi Vong
-url: https://vszhub.github.io
-avatar: /assets/img/avatar.jpeg
+title: Team Project of EPPS 6302
+description: This website is for group project in [EPPS 6302] Method of Data Collection & Production (2025 Fall)
+url: "https://solb-kim.github.io/EPPS6302team"      
+baseurl:             
+
+avatar: /assets/img/logo.jpg
 paginate: 5
 permalink: pretty
-cover_image: /assets/img/cover.jpeg
-timezone: +0000
+cover_image: /assets/img/box.jpg
+timezone: America/Chicago
+
 
 defaults:
   - scope:
-      path: ""      
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Songzi Vong"
-      image: "assets/img/avatar.jpeg"
-      share: true
-  - scope:
-      path: ""      
+      path: ""
       type: "pages"
     values:
-      layout: "page"
-      author: "Songzi Vong"
-      image: "assets/img/avatar.jpeg"
+      layout: page
+      sidebar: custom_sidebar
+
 
 # Gems
 plugins:
@@ -47,22 +42,13 @@ exclude:
   - README.md
   - scripts/
 
-# Optimize Jekyl SEO Tag
-twitter:
-  username: vszhub
-  card: summary
-logo: logo.png
-social:
-  name: Songzi Vong
-  links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
-google_site_verification: xxxxx
-lang: en
 
 sass:
   sass_dir: _sass
   style: :compressed
+
+
+
 
 # Options
 
@@ -71,11 +57,5 @@ google_analytics: UA-179353572-1
 
 # Replace this value and uncomment to enable Disqus
 disqus: vszhub
-
-# Specify the author for blog posts
-author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
 
 remote_theme: vszhub/not-pure-poole

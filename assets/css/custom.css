@@ -1,0 +1,14 @@
+/* Sidebar link text color */
+.sidebar nav a {
+  color: #1C1200   /* Dark burgundy */
+}
+
+/* Sidebar link hover color */
+.sidebar nav a:hover {
+  color: #ff6600;   /* Orange */
+}
+
+/* Sidebar title and description text */
+.sidebar h1, .sidebar p {
+  color: #B87501;   /* Dark orange */
+}
